@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form action="">
+        <h2>Event Registration</h2>
+        <label for="text">Name:</label>
+        <br>
+        <br>
+        <input type="text">
+        <br>
+        <label for="Email">Email:</label>
+        <br>
+        <br>
+        <input type="Email" name="emailID" id="email">
+        <br>
+    
+        <label for="PhoneNumber">Phone:</label>
+        <br>
+        <br>
+        <input type="tel" id="phoneNumber" name="telephone">
+        <br>
+
+        <label for="Occupation">Occupation:</label>
+        <br>
+        <br>
+        <select name="occupation" id="occupation">
+            <option value="OTHER">other</option>
+            <option value="engineer">Engineer</option>
+            <option value="Doctor">Doctor</option>
+            <option value="business">businessman/businesswomen</option>
+            <option value="private sector">Private Sector</option>
+        </select>
+        
+        <fieldset>
+        <legend><h3>topic of interests:</h3></legend>
+        <input type="checkbox" name="checkbox">
+        
+        <label for="language">HTML</label>
+        
+        <input type="checkbox" name="checkbox">
+        
+        <label for="language">CSS</label>
+        <input type="checkbox" name="checkbox">
+        <label for="language">JavaScript</label>
+        
+        </fieldset>
+
+        <br>
+        <label for="fileselect1">Resume:</label>
+        <input type="file" name="fileselector" id="fileselector">
+
+        <br>
+        <label for="experience">Experience(years): </label>
+        <br>
+        <input type="number" name="counter" id="counter" min="0" max="30">
+        <h4>Comments:</h4>
+        <textarea name="comments" id="comment1" cols="30" rows="10"></textarea>
+        <br>
+        <br>
+        <input type="Submit" value="Register" >
+        <button>Clear All</button>
+        <br>
+
+    </form>
+</body>
+</html>
