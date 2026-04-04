@@ -1,127 +1,162 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>BOOKMARKS</title>
     <style>
         * {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    font-family: Georgia, serif;
-}
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: Georgia, serif;
+        }
 
-body {
-    background-color: #1a1a1a;
-    padding: 50px;
-    color: #f5c518;
-}
+        body {
+            background-color: #1a1a1a;
+            padding: 50px;
+            color: #f5c518;
+        }
 
-h1 {
-    font-size: 48px;
-    color: #ffd700;
-    text-align: center;
-    letter-spacing: 4px;
-    text-transform: uppercase;
-    margin-bottom: 5px;
-    text-shadow: 0 0 10px #ffd700;
-}
+        h1 {
+            font-size: 48px;
+            color: #ffd700;
+            text-align: center;
+            letter-spacing: 4px;
+            text-transform: uppercase;
+            margin-bottom: 5px;
+            text-shadow: 0 0 10px #ffd700;
+        }
 
-h4 {
-    text-align: center;
-    color: #b8960c;
-    font-size: 16px;
-    margin-bottom: 40px;
-    letter-spacing: 2px;
-}
+        h4 {
+            text-align: center;
+            color: #b8960c;
+            font-size: 16px;
+            margin-bottom: 40px;
+            letter-spacing: 2px;
+        }
 
-h2 {
-    color: #ffd700;
-    font-size: 22px;
-    margin-top: 35px;
-    margin-bottom: 10px;
-    border-left: 5px solid #ffd700;
-    padding-left: 12px;
-}
+        h2 {
+            color: #ffd700;
+            font-size: 22px;
+            margin-top: 35px;
+            margin-bottom: 10px;
+            border-left: 5px solid #ffd700;
+            padding-left: 12px;
+        }
 
-h3 {
-    color: #f5c518;
-    font-size: 19px;
-    margin-top: 35px;
-    margin-bottom: 10px;
-    border-left: 5px solid #f5c518;
-    padding-left: 12px;
-}
+        h3 {
+            color: #f5c518;
+            font-size: 19px;
+            margin-top: 35px;
+            margin-bottom: 10px;
+            border-left: 5px solid #f5c518;
+            padding-left: 12px;
+        }
 
-a {
-    display: inline-block;
-    text-decoration: none;
-    color: #1a1a1a;
-    background: linear-gradient(135deg, #ffd700, #b8960c);
-    padding: 10px 22px;
-    border-radius: 25px;
-    font-size: 15px;
-    font-weight: bold;
-    margin-bottom: 12px;
-    transition: all 0.3s;
-    box-shadow: 0 4px 10px rgba(255, 215, 0, 0.3);
-}
+        a {
+            display: inline-block;
+            text-decoration: none;
+            color: #1a1a1a;
+            background: linear-gradient(135deg, #ffd700, #b8960c);
+            padding: 10px 22px;
+            border-radius: 25px;
+            font-size: 15px;
+            font-weight: bold;
+            margin-bottom: 12px;
+            transition: all 0.3s;
+            box-shadow: 0 4px 10px rgba(255, 215, 0, 0.3);
+        }
 
-a:hover {
-    background: linear-gradient(135deg, #ffe84d, #ffd700);
-    box-shadow: 0 6px 18px rgba(255, 215, 0, 0.6);
-    transform: translateY(-2px);
-}
+        a:hover {
+            background: linear-gradient(135deg, #ffe84d, #ffd700);
+            box-shadow: 0 6px 18px rgba(255, 215, 0, 0.6);
+            transform: translateY(-2px);
+        }
 
-a h2 {
-    color: #1a1a1a;
-    border: none;
-    padding: 0;
-    margin: 0;
-    font-size: 15px;
-}
-.top-section {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    margin-bottom: 40px;
-}
+        a h2 {
+            color: #1a1a1a;
+            border: none;
+            padding: 0;
+            margin: 0;
+            font-size: 15px;
+        }
 
-.left-text h1 {
-    text-align: left;
-}
+        .top-section {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            margin-bottom: 40px;
+        }
 
-.left-text h4 {
-    text-align: left;
-}
+        .left-text h1 {
+            text-align: left;
+        }
 
-.right-photo img {
-    border-radius: 50%;
-    border: 4px solid #ffd700;
-    box-shadow: 0 0 20px rgba(255, 215, 0, 0.5);
-}
+        .left-text h4 {
+            text-align: left;
+        }
 
+        .right-photo img {
+            border-radius: 50%;
+            border: 4px solid #ffd700;
+            box-shadow: 0 0 20px rgba(255, 215, 0, 0.5);
+        }
     </style>
+</head>
+
 <body>
     <!-- divided the content into left and right -->
     <div class="top-section">
-    <div class="left-text">
-        <h1>Aradhyaaaaaaaaa</h1>
-        <h4>-my important webpages</h4>
+        <div class="left-text">
+            <h1>Aradhyaaaaaaaaa</h1>
+            <h4>-my important webpages</h4>
+        </div>
+        <div class="right-photo">
+            <img src="my_photo.png" alt="Aradhya's photo" width="300" height="300">
+        </div>
     </div>
-    <div class="right-photo">
-        <img src="my_photo.png" alt="Aradhya's photo" width="200" height="200">
-    </div>
-</div>
+
     <h2><b>CODE with HARRY-</b></h2>
-    <a href="https://www.codewithharry.com/"><h2><b>handbooks</b></h2></a>
+    <a href="https://www.codewithharry.com/">
+        <h2><b>handbooks</b></h2>
+    </a>
+
     <h2><b>JENKINSCI Github project web</b></h2>
     <a href="https://github.com/jenkinsci/pipeline-graph-view-plugin"><b>Projects(open source)</b></a>
 
     <h3><b>Open Source Projects website:(ayush saini)</b></h3>
     <a href="https://www.algosource.in/"><b>AlgoSource</b></a>
 
+    <h2><b>Geeks for Geeks</b></h2>
+    <a href="https://www.geeksforgeeks.org/profile/aradhyyu5s"><b>My Geeks for Geeks profile</b></a>
 
+    <h2><b>my Striver sheet</b></h2>
+    <a href="https://takeuforward.org/dsa/strivers-a2z-sheet-learn-dsa-a-to-z"><b>Striver's DSA Sheet</b></a>
+
+    <h2><b>My Leetcode profile</b></h2>
+    <a href="https://leetcode.com/u/Aradhy_rast/">Leetcode profile</a>
+
+    <h2><b>my linkedin profile</b></h2>
+    <a href="https://www.linkedin.com/in/aradhyarast/">My linkedin profile</a>
+
+    <h2><b>Codechef profile</b></h2>
+    <a href="https://www.codechef.com/users/glee_boss_16">Codechef profile</a>
+
+    <h2><b>coding ninjas</b></h2>
+    <a href="https://codestudio-infra.codingninjas.com/studio/profile/f1c43254-0a35-46bd-a7b8-fa01277aefce">my coding
+        nijas profile</a>
+
+    <h2><b>kaggle</b></h2>
+    <a href="https://www.kaggle.com/aradhyarast">my kaggle profile</a>
+
+    <h2><b>naukri campus</b></h2>
+    <a href="https://www.naukri.com/mnjuser/profile?id=&altresid">naukri campus</a>
+
+    <h2><b>hackerrank</b></h2>
+    <a href="https://www.hackerrank.com/profile/aradhyarast">my hackerrank profile</a>
+    
 </body>
+
 </html>
